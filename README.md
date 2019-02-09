@@ -1,10 +1,38 @@
+# Introduction
+This theme is Jekyll theme which is supported by github pages out-of-the-box. 
 
+The theme uses gulp to manage js dependencies.
+
+Please familiarise with github pages https://pages.github.com/
+
+# How it works
+There are 2 branches in this repo which are important. 
+- `develop` which contains the full site code
+- `master` which is the generated code
+
+github.io renders/processes `master` branch from <username>.github.io repository and makes it available at https://<username>.github.io. This minimises our infrastructure to get started. 
+
+Github pages can process jekyll theme which makes it easier to work with website. 
+
+Most of the configurations are available in `_config.yml` file. Please go through it first to find if you need to change text in the site.
+
+You might have to tinker with other html files as needed.
+
+
+*** Developers should only make changes to develop ***
+
+
+# For local setup do,
 ```
 bundle update
 npm install
-gulp deploy
+
 ```
 
+To deploy to master branch
+```
+gulp deploy
+```
 
 =================================================
 =====     jekyll-gulp-sass-browser-sync     =====
