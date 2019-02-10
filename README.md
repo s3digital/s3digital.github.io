@@ -35,6 +35,10 @@ rm -rf .publish
 gulp deploy
 ```
 
+# CICD
+
+`https://app.codeship.com/projects/326977`
+
 =================================================
 =====     jekyll-gulp-sass-browser-sync     =====
 =================================================
