@@ -31,6 +31,7 @@ npm install
 
 To deploy to master branch
 ```
+rm -rf .publish
 gulp deploy
 ```
 
