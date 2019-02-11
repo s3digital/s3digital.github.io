@@ -135,15 +135,15 @@ mailchimp:
 #####################################
 #############   About   #############
 #####################################
-about-title: Welcome to Sera
-about-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+about-title: Welcome to S3 Digital
+about-description: Leverage our vast experience in Mulesoft consulting and implementation services to deliver Enterprise Integration at best quality, speed and optimized cost.
 
 
 #####################################
 #############  Features  ############
 #####################################
-features-title: Features
-features-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante.
+features-title: Practices
+features-description:
 
 #
 # Features
@@ -151,19 +151,19 @@ features-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
 features:
 
 # Feature
-- title: Clean & Unique Design
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
+- title: Enterprise Integration
+  description: 
   icon: pe-7s-vector
 
 # Feature
-- title: Professional Support
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
-  icon: pe-7s-help2
+- title: DevOps Consulting
+  description: 
+  icon: pe-7s-airplay
 
 # Feature
-- title: Pixel Perfect
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
-  icon: pe-7s-airplay
+- title: Managed Services
+  description: 
+  icon: pe-7s-help2
 
 
 #####################################
@@ -353,9 +353,9 @@ team-description: Nulla a tellus at turpis gravida congue non interdum et malesu
 team:
 
 # Team Member
-- name: Jack Skilton
-  tagline: Graphic Designer
-  avatar: avatar-01.jpg
+- name: Phillip Kolodziejski
+  tagline: DevOps Specialist
+  avatar: Phil.jpeg
 
   # Social Links
   youtube: '#'
@@ -366,9 +366,9 @@ team:
   vimeo: '#'
 
 # Team Member
-- name: James Young
-  tagline: Developer
-  avatar: avatar-02.jpg
+- name: Vikram Obla
+  tagline: Integration Specialist
+  avatar: Vikram.jpeg
 
   # Social Links
   youtube: '#'
@@ -379,9 +379,9 @@ team:
   vimeo: '#'
 
 # Team Member
-- name: Johnatan Doe
-  tagline: Hacker
-  avatar: avatar-04.jpg
+- name: Nabeel Shaheen
+  tagline: Open source Specialist
+  avatar: Nabeel.jpeg
 
   # Social Links
   youtube: '#'
@@ -392,9 +392,9 @@ team:
   vimeo: '#'
 
 # Team Member
-- name: Ecaterina Doe
-  tagline: Support Expert
-  avatar: avatar-03.jpg
+- name: Gourab Rout
+  tagline: Integration Specialist
+  avatar: Gourab.jpeg
 
   # Social Links
   youtube: '#'
@@ -403,7 +403,6 @@ team:
   twitter: '#'
   google-plus: '#'
   vimeo: '#'
-
 
 #####################################
 ############   Contact   ############
