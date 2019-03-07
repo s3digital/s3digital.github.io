@@ -1,10 +1,16 @@
+<script src="{{ site.baseurl }}/js/bideo.js"></script>
+
 <!-- Site Header -->
 <header class="site-header parallax" id="home" data-scrollax-parent="true">
 
   <!-- Parallax Header Image -->
   <div class="parallax-wrapper">
-    <div class="cover" data-scrollax="properties: { 'translateY': '48%' }">
-      <img src="{{ site.baseurl }}/images/header-image.jpg" alt="Sera - One Page Template by Gleesik Wallpaper" />
+    <div id="cover" class="cover" data-scrollax="properties: { 'translateY': '48%' }">
+      <div id="container">
+        <video muted loop id="background_video"></video>
+        <div id="video_cover"></div>
+      </div>
+      <script src="{{ site.baseurl }}/js/video.js"></script>
     </div>
   </div>
 
@@ -15,7 +21,7 @@
 
       <!-- Logo -->
       <div class="col-sm-2 col-xs-4 logo child-center-v">
-        <a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/images/logo.svg" width="100" alt="Sera - OnePage Logo by Gleesik"></a>
+        <a href="{{ site.baseurl }}/index.html"><img src="{{ site.baseurl }}/images/logo.png" height="150"></a>
       </div>
 
       <!-- Toggle Mobile Menu -->
@@ -55,23 +61,30 @@
     <div class="row header-banner parent" data-scrollax="properties: { 'translateY': '48%', 'opacity': '1.4' }">
 
       <div class="heading-content text-center child-center-v">
-
         <!-- Heading Title -->
+
         <div class="row heading-title">
-          <h2>{{ site.headter-tagline }}</h2>
-          <hr class="small">
-          <h1 class="thin">{{ site.header-title }}</h1>
+          <!-- <img src="{{ site.baseurl }}/images/logo.png"> -->
+          <!-- <hr class="small"> -->
+          <!-- <h3 class="thin">{{ site.header-title }}</h3> -->
         </div>
 
-        <!-- Header Buttons -->
-        <div class="row buttons-header">
-          <div class="col-lg-3 col-lg-push-3 col-md-4 col-md-push-2 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><a href="{{ site.header-focus-button.url }}" class="button-cta button-focus">{{ site.header-focus-button.title }}</a></div>
-          <div class="col-lg-3 col-lg-push-3 col-md-4 col-md-push-2 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1"><a href="{{ site.header-secondary-button.url }}" class="button-cta">{{ site.header-secondary-button.title }}</a></div>
-        </div>
-
+      <!-- Header Buttons -->
+      <div class="row buttons-header">
+          <div class="col-lg-3 col-lg-push-3 col-md-4 col-md-push-2 col-sm-8 col-sm-push-2 col-xs-10 col-xs-push-1">
+            <!-- <a href="{{ site.header-focus-button.url }}" class="button-cta button-focus">{{ site.header-focus-button.title }}</a> -->
+          </div>
+          <div class="col-md-12 col">
+            <!-- <a href="{{ site.header-secondary-button.url }}" class="button-cta">{{ site.header-secondary-button.title }}</a> -->
+          </div>
+         </div>
       </div>
-
     </div>
+
+    <!-- <div class="child-center">
+        <img src="{{ site.baseurl }}/images/logo.png" width="300px">
+
+    </div> -->
 
     <!-- Arrow Down -->
     <div class="row arrow-down-section" data-scrollax="properties: { 'opacity': '0.6' }">

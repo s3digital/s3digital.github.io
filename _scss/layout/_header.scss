@@ -126,14 +126,17 @@ header.site-header {
 
     .heading-content {
       width: 100%;
-      text-transform: uppercase;
 
       .heading-title {
         hr.small {
           margin-top: 40px;
           margin-bottom: 40px;
         }
+        h1.sup {
+          font-size: smaller;
+        }
       }
+
 
       .buttons-header {
         margin-top: 40px;
