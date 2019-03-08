@@ -19,14 +19,9 @@
       // of different video formats to add
       src: [
         {
-          src: '/images/videoall.mp4',
-          type: 'video/mp4'
+          src: '/images/videoall.webm',
+          type: 'video/webm;codecs="vp8, vorbis"'
         }
-        // ,
-        // {
-        //   src: 'night.webm',
-        //   type: 'video/webm;codecs="vp8, vorbis"'
-        // }
       ],
   
       // What to do once video loads (initial frame)
