@@ -19,8 +19,16 @@
       // of different video formats to add
       src: [
         {
-          src: '/images/videoall.webm',
+          src: '/images/video.m4v',
+          type: 'video/mp4'
+        },
+        {
+          src: '/images/video.webm',
           type: 'video/webm;codecs="vp8, vorbis"'
+        },
+        {
+          src: '/images/video.ogg',
+          type: 'video/ogg'
         }
       ],
   
